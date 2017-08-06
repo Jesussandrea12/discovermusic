@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='dist/logo.png')
     h1 DiscoverMusic
     h2 ¡Descubre los artistas trending!
     select(v-model="selectedCountry")
